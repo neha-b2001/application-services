@@ -21,3 +21,7 @@ Use the template below to make assigning a version number during the release cut
 ## Nimbus
 ### What's fixed
 - Fixes a bug where disabling studies did not disable rollouts. ([#4807](https://github.com/mozilla/application-services/pull/4807))
+
+## Nimbus FML
+### What's fixed
+- Fixes a bug where each time the fml is run, the ordering of features in the experimenter json is changed.
